@@ -1,0 +1,137 @@
+@font-face {
+  font-family:GothamLight;
+  src:url('../fonts/Gotham-Light.otf');
+}
+@font-face {
+  font-family:GothamMedium;
+  src:url('../fonts/Gotham-Medium.otf');
+}
+@font-face {
+  font-family:GothamBook;
+  src:url('../fonts/Gotham-Book.otf');
+}
+@font-face {
+  font-family:GothamBookIta;
+  src:url('../fonts/Gotham-BookIta.otf');
+}
+body {
+	font:14px/1.8 GothamMedium;
+}
+a {
+	text-decoration:none!important;
+}
+h1 {
+	font:42px GothamLight;
+}
+h2 {
+	font-size:30px;
+}
+h3 {
+	font:20px GothamBook;
+}
+h4 {
+	font-size:21px;
+}
+h5 {
+	font:14px GothamBook;
+}
+
+header ul li {
+	color:#000;
+}
+main {
+	background:radial-gradient(circle at bottom center,#0d7bb9,#032c6b);
+}
+label {
+	font-size:18px;
+}
+input.form-control {
+	box-shadow:none!important;
+	color:#000;
+	font:17px GothamBook;
+}
+input::placeholder,
+select {
+	color:#4e555c!important;
+	font-size:14px;
+	opacity:.7!important;
+}
+select {
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+}
+.form-select {
+	background:url(../images/down.png) no-repeat center right 30px;
+}
+.form-group span>span {
+	background:#d68d00;
+	height:30px;
+	width:30px;
+}
+.input-area:focus,
+.input-area:active {
+	box-shadow:0 0 16px #8eb9e5;
+}
+.cant-find {
+	font:18px GothamBook;
+}
+.lawyer>div:first-child>* {
+	display:block;
+}
+.lawyer-img img {
+	border:1px solid #2a77ae;
+}
+.lawyer-name {
+	font-size:13px;
+}
+.lawyer-location {
+	font-size:11px;
+}
+.lawyer-firm {
+	font-size:12px;
+}
+.lawyer-testimonial {
+	font:11px GothamBookIta;
+}
+.rating {
+	color:#d89108;
+	font-size:18px;
+}
+.read-more {
+	color:#fbd243;
+	font-size:10px;
+}
+hr {
+	opacity:.25;
+}
+footer * {
+	color:#919aa2;
+	font:12px GothamBook;
+}
+
+.modal {
+	background:rgba(0,0,0,.6);
+}
+.modal-content {
+	box-shadow:7px 7px 13px 0 rgba(0,0,0,.35);
+	padding:30px;
+	width:730px;
+	height:550px;
+}
+.modal .close {
+	font:30px GothamBook;
+	top:5px;
+	right:10px;
+}
+.modal ul {
+	column-count:2;
+}
+.modal ul li a {
+	color:#1864af;
+	font:14px GothamBook;
+}
+.modal ul li a:hover {
+	color:#154370;
+	text-decoration:underline!important;
+}
