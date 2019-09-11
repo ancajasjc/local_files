@@ -1,0 +1,164 @@
+<html>
+	<head>
+		<title>LegalMatch | Find the right lawyer now</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/custom.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container d-lg-flex justify-content-between align-items-center py-2">
+				<span><img src="images/logo.jpg" alt="logo" class="img-fluid" /></span>
+				<ul class="list-unstyled m-0 d-lg-block d-sm-flex text-sm-left text-center">
+					<li class="d-sm-flex align-items-center m-2"><span class="mr-1"><img src="images/check.png" alt="check" /></span> No fee to present your case</li>
+					<li class="d-sm-flex align-items-center m-2"><span class="mr-1"><img src="images/check.png" alt="check" /></span> Choose from lawyers in your area</li>
+					<li class="d-sm-flex align-items-center m-2"><span class="mr-1"><img src="images/check.png" alt="check" /></span> A 100% confidential service</li>
+				</ul>
+			</div>
+		</header>
+		
+		<main>
+			<div class="container text-white py-4">
+				<h1>Find a Lawyer for your Legal Issue</h1>
+				<h2 class="mb-4">Fast, Free and Confidential</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group my-4">
+							<label>Enter Zip Code or City:</label>
+							<div class="input-area bg-white rounded-pill p-3 d-flex align-items-center">
+								<span class="mr-2"><span class="rounded-circle text-white d-flex align-items-center justify-content-center">1</span></span>
+								<input type="text" class="form-control border-0" placeholder="Does not have to be where you live" />
+							</div>
+						</div>
+						<div class="form-group my-4">
+							<label>Choose a category:</label>
+							<div class="input-area bg-white rounded-pill p-3 d-flex align-items-center form-select">
+								<span class="mr-2"><span class="rounded-circle text-white d-flex align-items-center justify-content-center">2</span></span>
+								<select class="bg-transparent border-0 w-100">
+									<option>Click to choose a legal category</option>
+									<option>Family</option>
+									<option>Criminal Defense</option>
+									<option>Business</option>
+									<option>Personal Injury</option>
+									<option>Bankruptcy & Finances</option>
+									<option>Products & Services</option>
+									<option>Employment</option>
+									<option>Real Estate</option>
+									<option>Immigration</option>
+									<option>Wills, Trusts & Estates</option>
+									<option>Government</option>
+									<option>Intellectual Property</option>
+								</select>
+							</div>
+						</div>
+						<p class="mt-3 mb-md-3 mb-5 text-center cant-find">Can't find your category? <a href="javascript:void(0)" onclick="findcategory()" class="border-bottom border-light text-white">Click here.</a></p>
+					</div>
+					<div class="col-lg-5 col-md-6 offset-lg-1">
+						<h3>Clients review LegalMatch lawyers</h3>
+						<div class="lawyer row">
+							<div class="col-lg-3 col-md-4 col-sm-3 col-4 text-center">
+								<span class="lawyer-img"><img src="images/mitchell.png" alt="mitchell" class="rounded-circle" /></span>
+								<span class="lawyer-name">Mitchell M.</span>
+								<span class="lawyer-location">Cherry Hill, NJ</span>
+							</div>
+							<div class="col-lg-0 col-md-8 col-sm-9 col-8 pl-0">
+								<p class="lawyer-firm">Family Law <span class="rating ml-sm-3 d-sm-inline d-block">&starf; &starf; &starf; &starf; &starf;</span></p>
+								<p class="lawyer-testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
+								<p class="m-0 text-right"><a href="#" class="read-more">Read Review <img src="images/book.png" alt="read more" /></a></p>
+							</div>
+						</div>
+						<hr class="border-light" />
+						<div class="lawyer row">
+							<div class="col-lg-3 col-md-4 col-sm-3 col-4 text-center">
+								<span class="lawyer-img"><img src="images/joel.png" alt="joel" class="rounded-circle" /></span>
+								<span class="lawyer-name">Joel C.</span>
+								<span class="lawyer-location">Little Rock, AK</span>
+							</div>
+							<div class="col-lg-0 col-md-8 col-sm-9 col-8 pl-0">
+								<p class="lawyer-firm">Job &amp; Employment Law <span class="rating ml-sm-3 d-sm-inline d-block">&starf; &starf; &starf; &starf; &starf;</span></p>
+								<p class="lawyer-testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
+								<p class="m-0 text-right"><a href="#" class="read-more">Read Review <img src="images/book.png" alt="read more" /></a></p>
+							</div>
+						</div>
+						<hr class="border-light" />
+						<div class="lawyer row">
+							<div class="col-lg-3 col-md-4 col-sm-3 col-4 text-center">
+								<span class="lawyer-img"><img src="images/brigida.png" alt="brigida" class="rounded-circle" /></span>
+								<span class="lawyer-name">Brigida R.</span>
+								<span class="lawyer-location">Dallas, TX</span>
+							</div>
+							<div class="col-lg-0 col-md-8 col-sm-9 col-8 pl-0">
+								<p class="lawyer-firm">Family Law <span class="rating ml-sm-3 d-sm-inline d-block">&starf; &starf; &starf; &starf; &starf;</span></p>
+								<p class="lawyer-testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
+								<p class="m-0 text-right"><a href="#" class="read-more">Read Review <img src="images/book.png" alt="read more" /></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<footer>
+			<div class="container py-5">
+				<div class="row">
+					<div class="col-lg-2 text-lg-left text-center">
+						<img src="images/logo-2.jpg" class="img-fluid mb-4" />
+					</div>
+					<div class="col-lg-8 text-center">
+						<p class="mt-2 mb-lg-5">
+							<a href="#">User Agreement</a>
+							<span class="mx-lg-4 mx-sm-3 mx-1">&bull;</span>
+							<a href="#">Privacy Policy</a>
+							<span class="mx-lg-4 mx-sm-3 mx-1">&bull;</span>
+							<a href="#">Site Map</a>
+						</p>
+						<p class="copyright m-lg-0">Copyright 1999-2016 LegalMatch. All rights reserved. LegalMatch&reg;, <br class="d-sm-block d-none" /> the LegalMatch logo, and the tradedress are trademarks of LegalMatch. Patents Pending.</p>
+					</div>
+					<div class="col-lg-2 text-lg-right text-center d-sm-block d-flex">
+						<span><img src="images/truste.jpg" class="img-fluid mx-md-0 mx-3 mb-md-3" /></span>
+						<span><img src="images/bbb.jpg" class="img-fluid mx-md-0 mx-3" /></span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div id="findCategory" class="modal">
+			<div class="modal-content border-0">
+				<a href="javascript:void(0)" class="close position-absolute" onclick="closemodal()">X</a>
+				<h4>OTHER CATEGORIES</h4>
+				<h5 class="mb-4">Choose the category that best fits your case</h5>
+				<ul class="list-unstyled">
+					<li><a href="#">Abuse (Child, Domestic, Sexual)</a></li>
+					<li><a href="#">Agencies & Administration</a></li>
+					<li><a href="#">Automobile ( DUI, Crimes, Speeding )</a></li>
+					<li><a href="#">Automobiles ( Accidents, Insurance )</a></li>
+					<li><a href="#">Banking ( Business, Consumer )</a></li>
+					<li><a href="#">Bars & Restaurants</a></li>
+					<li><a href="#">Business Formation & Dissolution</a></li>
+					<li><a href="#">Children (Adoption, Custody, Support)</a></li>
+					<li><a href="#">Class Actions (Bad Drugs, Products)</a></li>
+					<li><a href="#">Commercial Law and Contracts</a></li>
+					<li><a href="#">Commercial Real Estate</a></li>
+					<li><a href="#">Constitutional Law</a></li>
+					<li><a href="#">Construction (Disputes, Liens)</a></li>
+					<li><a href="#">Categories Item Here</a></li>
+					<li><a href="#">Loremipsum Dolorsitamet,</a></li>
+					<li><a href="#">Lonsectetur Scingelit  (Baseererkj, Mereit)</a></li>
+					<li><a href="#">Miam Euvelit</a></li>
+					<li><a href="#">Mempor Auctor (Estiarma, Toeruslej)</a></li>
+					<li><a href="#">Nisultricies Dictumest.</a></li>
+					<li><a href="#">Ntfring Sodalelit (Aeeticl Restoustoust)</a></li>
+					<li><a href="#">Ntvarius Lectus & Congue</a></li>
+					<li><a href="#">Pellentesque</a></li>
+					<li><a href="#">Rigula Aliquamattis (Nestusotu, Wewreist)</a></li>
+					<li><a href="#">Set Tigulempor</a></li>
+					<li><a href="#">Sehicula Sedsitamet</a></li>
+					<li><a href="#">Seque Nesturre</a></li>
+					<li><a href="#">Tollis Gaurissed</a></li>
+					<li><a href="#">Tempor Auctor (Estiarma, Toeruslej)</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
